@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+html {
+  font-family: "Plus Jakarta Sans", serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.popup-card {
+  padding: 40px;
+  overflow: hidden;
+  border-radius: 24px;
+  max-width: 850px;
+  max-height: 400px;
+  position: relative;
+  background-color: #fafafa;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.txt-logo-content {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: end;
+}
+.txt-content {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: end;
+}
+.txt {
+  width: 60%;
+  text-align: right;
+  color: #878c91;
+  font-size: 16px;
+  line-height: 150%;
+}
+.title {
+  color: #010205;
+  font-size: 48px;
+  margin: 10px 0px;
+}
+.image {
+  position: absolute;
+  left: -100px;
+  bottom: -100px;
+  width: 70%;
+}
+
+@media screen and (max-width: 390px) {
+  .popup-card {
+    height: 570px;
+    padding: 16px;
+  }
+  .txt-logo-content {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: end;
+  }
+  .txt-content {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: start;
+  }
+  .txt {
+    width: auto;
+    text-align: left;
+    color: #878c91;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .title {
+    color: #010205;
+    font-size: 32px;
+    margin: 10px 0px;
+  }
+  .image {
+    position: absolute;
+    left: -100px;
+    bottom: -125px;
+    width: 140%;
+  }
+  .logo {
+    width: 30%;
+    margin-top: -30px;
+  }
+}

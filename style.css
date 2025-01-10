@@ -51,6 +51,38 @@ body {
   width: 70%;
 }
 
+/* ------------------------------------------ */
+
+.card {
+  background-image: url(img/card-bg.png);
+  max-width: 310px;
+  max-height: 310px;
+  width: 310px;
+  height: 310px;
+  background-size: cover;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  border: 10px solid #fafafa;
+}
+
+.card-name {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background-color: #fcbf17;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.company-name {
+  color: #010205;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 390px) {
   .popup-card {
     height: 570px;

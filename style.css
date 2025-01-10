@@ -197,6 +197,63 @@ body {
 
 /* ------------------------------------------------ */
 
+.location {
+  display: flex;
+  align-items: flex-end;
+  gap: 80px;
+  padding: 20px 80px;
+}
+
+.startupIndia {
+  width: 50%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.our-presence {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.office-locations {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  gap: 40px;
+}
+
+.office-add {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: -30px;
+}
+
+.country {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.office-type {
+  font-size: 24px;
+  font-weight: 600;
+  color: #878c91;
+  margin: 0;
+}
+
+.add {
+  width: 60%;
+  font-size: 14px;
+}
+
+/* ------------------------------------------------ */
+
 @media screen and (max-width: 770px) {
   .tech-stack {
     gap: 20px;
@@ -207,6 +264,17 @@ body {
     justify-content: flex-start;
     align-items: start;
     gap: 40px;
+  }
+
+  .location {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .startupIndia {
+    width: 90%;
   }
 }
 

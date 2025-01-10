@@ -128,6 +128,90 @@ body {
 
 /* ------------------------------------------------ */
 
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  width: 90vw;
+  padding: 20px 80px;
+  gap: 80px;
+}
+
+.ts-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.tech-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 40px;
+}
+
+.tech {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 120px;
+}
+
+.tech-category {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0;
+  width: 15%;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+  row-gap: 40px;
+}
+
+.tech-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tech-divider {
+  background-color: #1c8adb;
+  height: 1px;
+  width: 100%;
+  opacity: 20%;
+}
+
+/* ------------------------------------------------ */
+
+@media screen and (max-width: 770px) {
+  .tech-stack {
+    gap: 20px;
+  }
+
+  .tech {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 40px;
+  }
+}
+
+/* ------------------------------------------------ */
+
 @media screen and (max-width: 390px) {
   .popup-card {
     height: 570px;
